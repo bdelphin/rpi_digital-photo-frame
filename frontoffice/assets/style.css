@@ -1,0 +1,21 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+
+body {
+    /* Mode COVER */
+    /* background-size: cover; */
+
+    /* Mode FIT */
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    /* Smooth transition - not working with FF ! */
+    /* TODO : improve using https://stackoverflow.com/a/13034571 ? */
+    transition: background-image 2s;
+}
